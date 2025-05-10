@@ -1,0 +1,13 @@
+2025-01-17 10:29:11,698 Running colabfold 1.5.5 (61df3b853140ca79dbdf64349824beb14364ebfd)
+2025-01-17 10:29:12,017 Running on GPU
+2025-01-17 10:29:20,245 Found 5 citations for tools or databases
+2025-01-17 10:29:20,245 Query 1/1: Q9BV23_ABHD6_HUMAN (length 337)
+2025-01-17 10:29:23,204 Setting max_seq=512, max_extra_seq=5120
+2025-01-17 10:30:34,057 alphafold2_ptm_model_1_seed_001 recycle=0 pLDDT=89.4 pTM=0.876
+2025-01-17 10:30:39,071 alphafold2_ptm_model_1_seed_001 recycle=1 pLDDT=89.5 pTM=0.876 tol=0.198
+2025-01-17 10:30:44,129 alphafold2_ptm_model_1_seed_001 recycle=2 pLDDT=90 pTM=0.876 tol=0.102
+2025-01-17 10:30:49,132 alphafold2_ptm_model_1_seed_001 recycle=3 pLDDT=90.4 pTM=0.88 tol=0.0851
+2025-01-17 10:30:49,139 alphafold2_ptm_model_1_seed_001 took 32.4s (3 recycles)
+2025-01-17 10:30:49,269 reranking models by 'plddt' metric
+2025-01-17 10:30:49,269 rank_001_alphafold2_ptm_model_1_seed_001 pLDDT=90.4 pTM=0.88
+2025-01-17 10:30:49,707 Done

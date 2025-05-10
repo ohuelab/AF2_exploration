@@ -1,0 +1,13 @@
+2025-01-17 10:23:53,399 Running colabfold 1.5.5 (61df3b853140ca79dbdf64349824beb14364ebfd)
+2025-01-17 10:23:53,709 Running on GPU
+2025-01-17 10:23:58,921 Found 5 citations for tools or databases
+2025-01-17 10:23:58,922 Query 1/1: CDK2_HUMAN (length 298)
+2025-01-17 10:24:04,034 Setting max_seq=512, max_extra_seq=5120
+2025-01-17 10:24:54,365 alphafold2_ptm_model_1_seed_001 recycle=0 pLDDT=86.9 pTM=0.876
+2025-01-17 10:24:58,362 alphafold2_ptm_model_1_seed_001 recycle=1 pLDDT=86.1 pTM=0.873 tol=0.893
+2025-01-17 10:25:02,347 alphafold2_ptm_model_1_seed_001 recycle=2 pLDDT=86.2 pTM=0.871 tol=0.321
+2025-01-17 10:25:06,496 alphafold2_ptm_model_1_seed_001 recycle=3 pLDDT=86.4 pTM=0.872 tol=0.204
+2025-01-17 10:25:06,520 alphafold2_ptm_model_1_seed_001 took 27.3s (3 recycles)
+2025-01-17 10:25:06,611 reranking models by 'plddt' metric
+2025-01-17 10:25:06,612 rank_001_alphafold2_ptm_model_1_seed_001 pLDDT=86.4 pTM=0.872
+2025-01-17 10:25:07,000 Done

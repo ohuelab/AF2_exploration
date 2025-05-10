@@ -1,0 +1,73 @@
+HETATM    1  C1  DAY A 301      38.142  31.611   9.944  1.00 52.19           C  
+HETATM    2  N1  DAY A 301      37.574  34.512   7.740  1.00 50.02           N  
+HETATM    3  O1  DAY A 301      38.353  28.423  11.296  1.00 53.73           O  
+HETATM    4  C2  DAY A 301      37.845  32.848   9.515  1.00 51.24           C  
+HETATM    5  N2  DAY A 301      37.220  34.976   8.915  1.00 49.85           N  
+HETATM    6  O2  DAY A 301      43.471  27.771  12.170  1.00 55.18           O  
+HETATM    7  C3  DAY A 301      38.224  33.260   8.126  1.00 50.55           C  
+HETATM    8  O3  DAY A 301      42.475  24.552  12.980  1.00 59.00           O  
+HETATM    9  C4  DAY A 301      39.003  32.215   7.277  1.00 50.51           C  
+HETATM   10  O4  DAY A 301      41.272  25.196  15.295  1.00 59.24           O  
+HETATM   11  C5  DAY A 301      39.306  30.966   7.773  1.00 52.37           C  
+HETATM   12  C6  DAY A 301      40.468  30.230   6.985  1.00 51.68           C  
+HETATM   13  C7  DAY A 301      41.115  29.038   7.649  1.00 50.58           C  
+HETATM   14  C8  DAY A 301      40.608  28.524   9.042  1.00 51.40           C  
+HETATM   15  C9  DAY A 301      40.017  29.734   9.941  1.00 52.63           C  
+HETATM   16  C10 DAY A 301      38.850  30.495   9.182  1.00 52.82           C  
+HETATM   17  C11 DAY A 301      39.507  29.259  11.373  1.00 52.82           C  
+HETATM   18  C12 DAY A 301      40.551  28.478  12.148  1.00 53.98           C  
+HETATM   19  C13 DAY A 301      41.188  27.284  11.308  1.00 53.44           C  
+HETATM   20  C14 DAY A 301      41.720  27.856   9.903  1.00 52.16           C  
+HETATM   21  C15 DAY A 301      42.532  26.610   9.335  1.00 50.80           C  
+HETATM   22  C16 DAY A 301      43.042  25.902  10.571  1.00 54.25           C  
+HETATM   23  C17 DAY A 301      42.501  26.713  11.833  1.00 52.59           C  
+HETATM   24  C18 DAY A 301      40.096  26.120  10.989  1.00 54.12           C  
+HETATM   25  C19 DAY A 301      37.576  29.632   8.772  1.00 52.54           C  
+HETATM   26  C20 DAY A 301      42.252  25.752  13.078  1.00 54.85           C  
+HETATM   27  C21 DAY A 301      41.731  26.244  14.456  1.00 55.71           C  
+HETATM   28  C22 DAY A 301      37.113  34.097  10.216  1.00 53.08           C  
+HETATM   29  C23 DAY A 301      37.709  34.583   5.475  1.00 50.92           C  
+HETATM   30  C24 DAY A 301      37.595  35.241   6.712  1.00 50.36           C  
+HETATM   31  C25 DAY A 301      37.692  35.185   4.252  1.00 51.60           C  
+HETATM   32  C26 DAY A 301      37.565  36.633   3.930  1.00 50.89           C  
+HETATM   33  C27 DAY A 301      37.431  36.672   6.525  1.00 52.16           C  
+HETATM   34  C28 DAY A 301      40.933  30.663   5.705  1.00 49.29           C  
+HETATM   35  C29 DAY A 301      37.423  37.417   5.148  1.00 48.98           C  
+HETATM   36  C30 DAY A 301      44.562  25.916  10.489  1.00 55.13           C  
+CONECT    1    4   16
+CONECT    2    5   30    7
+CONECT    3   17
+CONECT    4    1    7   28
+CONECT    5    2   28
+CONECT    6   23
+CONECT    7    4    2    9
+CONECT    8   26
+CONECT    9    7   11
+CONECT   10   27
+CONECT   11    9   12   16
+CONECT   12   11   13   34
+CONECT   13   12   14
+CONECT   14   13   15   20
+CONECT   15   14   16   17
+CONECT   16    1   11   15   25
+CONECT   17    3   15   18
+CONECT   18   17   19
+CONECT   19   18   20   23   24
+CONECT   20   14   19   21
+CONECT   21   20   22
+CONECT   22   21   23   36
+CONECT   23   19   22    6   26
+CONECT   24   19
+CONECT   25   16
+CONECT   26   23    8   27
+CONECT   27   26   10
+CONECT   28    4    5
+CONECT   29   30   31
+CONECT   30    2   29   33
+CONECT   31   29   32
+CONECT   32   31   35
+CONECT   33   30   35
+CONECT   34   12
+CONECT   35   32   33
+CONECT   36   22
+END

@@ -1,0 +1,86 @@
+# config
+
+# *** requirement ***
+# ** af2 **
+# 1. dat/tgt_protein/input.fastaを用意
+# 2. af2を一度実行して標的タンパク質のMSAを作成し、dat/af2_msa_envに格納する
+# ** docking **
+# 1. base_receptor, base_ligandを用意
+# 2. scripts/docking/config.txtを用意
+# 3. dat/{TGT_PROTEIN}/exploration_{active_size}_{split_id}/train,
+#    dat/{TGT_PROTEIN}/exploration_{active_size}_{split_id}/test
+#    にリガンドを用意
+# ** bindingsite **
+# 1. pymolを用いて、標的タンパク質のligandから8Å以内にある残基番号を確認し、scripts/bindingsites.pyに格納する
+
+# LOGFILE_PATH = "./dat/optimize_log/progress_log.json"
+
+
+TGT_PROTEIN: CDK2                    #　標的タンパク質
+OPTIMIZATION_OPTION_MSA: "optimize"  # MSAを探索する("optimize") or ランダムMSAを使用する("random")
+
+ACTIVE_SIZE: verysmall               # 探索に利用するデータセットのサイズ(string型)
+SPLIT_ID: 1                          # データセットのid
+
+# GA
+POPULATION_SIZE: 6                   # population size 偶数のみ(min: 6)
+INIT_POPULATION_SIZE: 6              # initial population size (min: 6)
+GENERATIONS: 2                       # generation
+MSA_MUTATION_RATE: 0.05              # mutation rate
+MSA_CROSSOVER_P: 0.9                 # crossover確率
+MSA_MUTATION_P: 0.5                  # 初期populationにおいて、MSAの各残基がAlanineに変異する確率
+
+
+
+# ** ここから先は変更しない **
+
+SCORING_METHOD: exploration
+AF2_MUTATION_RATE: 0.05
+AF2_CROSSOVER_P: 0.9
+OPTIMIZATION_OPTION_AF2: "default"
+
+# MSAを変異させる残基の選び方
+# bindingsites.pyと対応している
+# {"8A" : "リガンドから8Å以内の残基"}
+MSA_MUTATION_TARGET: "8A"
+
+# 対象のパラメータ名
+ALL_COLUMNS: [
+    "max_seq",
+    "max_extra_seq",
+    "num_recycle",
+    "model_order",
+    "msa_mutation"
+]
+
+# AF2の各パラメータ名
+AF2_COLUMNS: [
+    "max_seq",
+    "max_extra_seq",
+    "num_recycle",
+    "model_order"
+]
+
+# MSA変異の各パラメータ名
+MSA_COLUMNS: [
+    "msa_mutation"
+]
+
+# AF2のパラメータ範囲
+AF2_PARAMS_SPACE: [
+    [16, 512, 1],  # max_seq
+    [32, 5120, 1], # max_extra_seq
+    [1, 3, 1],     # recycle_num
+    [1, 5, 1]      # model_order
+]
+
+# デフォルト値
+DEFAULT_AF2_PARAMS: [
+    16, 32, 1, 1
+]
+DEFAULT_MSA_MUTATION: none
+
+ALPHAFOLD_VERSION: 2
+
+
+

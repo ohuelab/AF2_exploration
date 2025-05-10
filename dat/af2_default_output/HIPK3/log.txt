@@ -1,0 +1,13 @@
+2025-01-17 10:31:27,729 Running colabfold 1.5.5 (61df3b853140ca79dbdf64349824beb14364ebfd)
+2025-01-17 10:31:28,035 Running on GPU
+2025-01-17 10:31:30,836 Found 5 citations for tools or databases
+2025-01-17 10:31:30,836 Query 1/1: Q9H422_HIPK3_HUMAN (length 371)
+2025-01-17 10:31:35,637 Setting max_seq=512, max_extra_seq=5120
+2025-01-17 10:32:38,651 alphafold2_ptm_model_1_seed_001 recycle=0 pLDDT=93.4 pTM=0.927
+2025-01-17 10:32:44,560 alphafold2_ptm_model_1_seed_001 recycle=1 pLDDT=93.8 pTM=0.931 tol=0.305
+2025-01-17 10:32:50,534 alphafold2_ptm_model_1_seed_001 recycle=2 pLDDT=94.1 pTM=0.932 tol=0.14
+2025-01-17 10:32:56,407 alphafold2_ptm_model_1_seed_001 recycle=3 pLDDT=94.2 pTM=0.931 tol=0.0787
+2025-01-17 10:32:56,426 alphafold2_ptm_model_1_seed_001 took 35.1s (3 recycles)
+2025-01-17 10:32:56,550 reranking models by 'plddt' metric
+2025-01-17 10:32:56,550 rank_001_alphafold2_ptm_model_1_seed_001 pLDDT=94.2 pTM=0.931
+2025-01-17 10:32:56,939 Done

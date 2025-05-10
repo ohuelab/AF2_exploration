@@ -1,0 +1,28 @@
+2025-01-17 10:17:28,942 Running colabfold 1.5.5 (61df3b853140ca79dbdf64349824beb14364ebfd)
+2025-01-17 10:17:29,257 Running on GPU
+2025-01-17 10:17:35,938 Found 5 citations for tools or databases
+2025-01-17 10:17:35,938 Query 1/1: KIF11_HUMAN (length 330)
+2025-01-17 10:17:36,473 Sleeping for 9s. Reason: PENDING
+2025-01-17 10:17:46,003 Sleeping for 9s. Reason: PENDING
+2025-01-17 10:17:55,534 Sleeping for 8s. Reason: RUNNING
+2025-01-17 10:18:04,059 Sleeping for 5s. Reason: RUNNING
+2025-01-17 10:18:09,577 Sleeping for 6s. Reason: RUNNING
+2025-01-17 10:18:16,097 Sleeping for 7s. Reason: RUNNING
+2025-01-17 10:18:23,616 Sleeping for 7s. Reason: RUNNING
+2025-01-17 10:18:31,140 Sleeping for 9s. Reason: RUNNING
+2025-01-17 10:18:40,669 Sleeping for 9s. Reason: RUNNING
+2025-01-17 10:18:50,199 Sleeping for 5s. Reason: RUNNING
+2025-01-17 10:18:55,727 Sleeping for 9s. Reason: RUNNING
+2025-01-17 10:19:05,249 Sleeping for 5s. Reason: RUNNING
+2025-01-17 10:19:10,778 Sleeping for 8s. Reason: RUNNING
+2025-01-17 10:19:19,663 Sleeping for 5s. Reason: RUNNING
+2025-01-17 10:19:25,183 Sleeping for 9s. Reason: RUNNING
+2025-01-17 10:19:39,084 Setting max_seq=512, max_extra_seq=5120
+2025-01-17 10:20:32,827 alphafold2_ptm_model_1_seed_001 recycle=0 pLDDT=77.8 pTM=0.844
+2025-01-17 10:20:37,580 alphafold2_ptm_model_1_seed_001 recycle=1 pLDDT=79.2 pTM=0.851 tol=1.04
+2025-01-17 10:20:42,364 alphafold2_ptm_model_1_seed_001 recycle=2 pLDDT=79.1 pTM=0.844 tol=1.1
+2025-01-17 10:20:47,030 alphafold2_ptm_model_1_seed_001 recycle=3 pLDDT=79.9 pTM=0.852 tol=1.15
+2025-01-17 10:20:47,034 alphafold2_ptm_model_1_seed_001 took 31.6s (3 recycles)
+2025-01-17 10:20:47,139 reranking models by 'plddt' metric
+2025-01-17 10:20:47,139 rank_001_alphafold2_ptm_model_1_seed_001 pLDDT=79.9 pTM=0.852
+2025-01-17 10:20:47,536 Done
